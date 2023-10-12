@@ -18,7 +18,6 @@ export default function CharityDetail() {
         if (data) {
           setCharity(data.data.nonprofit)
           setCharityTags(data.data.nonprofitTags)
-          console.log(data.data.nonprofit, 'nonprofit');
         }  
       }
     }
